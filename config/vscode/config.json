@@ -1,0 +1,39 @@
+{
+    "chat.commandCenter.enabled": false,
+    "editor.fontSize": 14,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "editor.links": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+	"telemetry.feedback.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "update.mode": "none",
+    "window.zoomLevel": 2,
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 14,
+    "workbench.tips.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    // extensions settings
+    // YAML Language Support
+    "yaml.yamlVersion": "1.2",
+    "yaml.format.enable": true,
+    "yaml.validate": true,
+    // Python with Ruff
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    }
+}
