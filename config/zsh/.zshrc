@@ -21,6 +21,8 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias vim="/usr/bin/nvim"
 alias vi="/usr/bin/nvim"
+alias cat="/usr/bin/bat"
+alias ls="/usr/bin/lsd"
 
 # Zoxide - smarter cd command (https://github.com/ajeetdsouza/zoxide)
 eval "$(zoxide init zsh)"
