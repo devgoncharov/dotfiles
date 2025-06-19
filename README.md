@@ -13,6 +13,12 @@ This repo is designed to synchronize the configs of the software that I use in m
 ### Zsh
 
 First download `zsh` and [`Oh My Zsh`](https://ohmyz.sh/), then open your `~/.zshrc` file and add the necessary settings from [my config](./config/zsh/.zshrc)
+I use aliases to use the following utilities:
+
+| Name | Alias | Description |
+| ---- | ----- | ----------- |
+| [Bat](https://github.com/sharkdp/bat) | cat | A cat(1) clone with syntax highlighting and Git integration |
+| [Lsd](https://github.com/lsd-rs/lsd) | ls | The next gen ls command |
 
 ### Visual Studio Code
 
