@@ -128,7 +128,7 @@
   "theme": {
     "mode": "system",
     "light": "Gruvbox Material",
-    "dark": "One Dark"
+    "dark": "Gruvbox Material"
   },
   "ui_font_family": "JetBrainsMono Nerd Font",
   "ui_font_size": 16
