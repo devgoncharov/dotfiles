@@ -28,3 +28,6 @@ vim.cmd [[
   highlight LineNr guibg=NONE ctermbg=NONE
   highlight SignColumn guibg=NONE ctermbg=NONE
 ]]
+=======
+require('base.config')
+require('plugins.base')
