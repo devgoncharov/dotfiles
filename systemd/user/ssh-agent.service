@@ -1,0 +1,15 @@
+[Unit]
+Description=SSH Key Agent
+After=network.target
+
+[Service]
+Type=forking
+Environment=SSH_AUTH_SOCK=%t/ssh-agent.socket
+ExecStart=/usr/bin/ssh-agent -a $SSH_AUTH_SOCK
+ExecStop=/usr/bin/pkill -F $SSH_AUTH_SOCK
+Restart=always
+ExecStartPost=/usr/bin/systemctl --user set-environment SSH_AUTH_SOCK=%t/ssh-agent.socket
+
+[Install]
+WantedBy=default.target
+
